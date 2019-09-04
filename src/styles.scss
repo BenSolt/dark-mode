@@ -256,4 +256,19 @@ text-align: left;
 .dark-mode2 {
   color: #fff;
   background-color: red;
+
+  .navbar {
+    background-color: rgb(73, 0, 0);
+    border: none;
+  }
+}
+
+.dark-mode3 {
+  color: #fff;
+  background-color: green;
+
+  .navbar {
+    background-color: rgb(0, 73, 12);
+    border: none;
+  }
 }
