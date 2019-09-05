@@ -7,6 +7,8 @@ import Navbar from "./components/Navbar";
 
 import "./styles.scss";
 
+
+
 const App = () => {
   const [coinData, setCoinData] = useState([]);
 
@@ -17,7 +19,10 @@ const App = () => {
       )
       .then(res => setCoinData(res.data))
       .catch(err => console.log(err));
-  }, []);
+  },[]);
+  
+ 
+  
   return (
     <div className="App">
       <Navbar />
